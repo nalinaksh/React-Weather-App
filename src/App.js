@@ -23,7 +23,7 @@ export default function App() {
   };
 
   //  Weather API
-  const api_key_weather_app = 'b93e2a5e586827db98cbc7cf4e53a2f2';
+  const api_key_weather_app = '****************************'; //Your Open Weather API Token
   const URL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${api_key_weather_app}`;
 
 
